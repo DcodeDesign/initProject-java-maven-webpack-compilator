@@ -1,0 +1,43 @@
+h1{
+  font-size:62px;
+  margin: 25px 5px !important;
+  background: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2{
+  font-size:56px;
+  color:#e02aff;
+}
+
+h3{
+  font-size:48px;
+  color:#e02aff;
+}
+
+h4{
+  font-size:36px;
+  color:#c12127
+}
+
+h5{
+  font-size:28px;
+  color:#c12127;
+  margin: 20px;
+}
+
+h6{
+  font-size:20px;
+  color:#ff4b01;
+}
+
+p {
+  font-size:16px;
+  margin: 15px;
+  color:#fb8817;
+}
+
+.text-center {
+  text-align: center;
+}

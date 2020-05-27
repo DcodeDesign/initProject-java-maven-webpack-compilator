@@ -106,7 +106,7 @@ let compileSass = {
 
 let compileTs = {
     entry: [
-        "./src/ts/main.ts",
+        './src/ts/main.ts',
         "./src/ts/two.ts"
     ],
     module: {

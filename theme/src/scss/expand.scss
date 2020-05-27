@@ -1,0 +1,20 @@
+.expand {
+  background: #fb8817;
+  color: #fff;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 50%;
+  float: right;
+  margin-top: -62px;
+  margin-right: 28px;
+}
+
+.container-expand {
+  width:100%;
+
+  .content {
+    display: none;
+    padding : 5px;
+  }
+}

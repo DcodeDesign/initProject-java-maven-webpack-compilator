@@ -1,0 +1,198 @@
+$prefix: grid-col-;
+
+/*grid*/
+.grid-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*=#{$prefix}] {
+    float: left;
+}
+
+/* For small mobile phones: */
+@media only screen and (min-width: 320px) {
+    /* For tablets: */
+    .#{$prefix}xs-1 {
+        width: 8.33%;
+    }
+    .#{$prefix}xs-2 {
+        width: 16.66%;
+    }
+    .#{$prefix}xs-2-5 {
+        width: 20%;
+    }
+    .#{$prefix}xs-3 {
+        width: 25%;
+    }
+    .#{$prefix}xs-4 {
+        width: 33.33%;
+    }
+    .#{$prefix}xs-5 {
+        width: 41.66%;
+    }
+    .#{$prefix}xs-6 {
+        width: 50%;
+    }
+    .#{$prefix}xs-7 {
+        width: 58.33%;
+    }
+    .#{$prefix}xs-8 {
+        width: 66.66%;
+    }
+    .#{$prefix}xs-9 {
+        width: 75%;
+    }
+    .#{$prefix}xs-10 {
+        width: 83.33%;
+    }
+    .#{$prefix}xs-11 {
+        width: 91.66%;
+    }
+    .#{$prefix}xs-12 {
+        width: 100%;
+    }
+    .#{$prefix}xs-hidden {
+        display:none;
+    }
+}
+
+/* For mobile phones: */
+@media only screen and (min-width: 400px) {
+    /* For tablets: */
+    .#{$prefix}s-1 {
+        width: 8.33%;
+    }
+    .#{$prefix}s-2 {
+        width: 16.66%;
+    }
+    .#{$prefix}s-2-5 {
+        width: 20%;
+    }
+    .#{$prefix}s-3 {
+        width: 25%;
+    }
+    .#{$prefix}s-4 {
+        width: 33.33%;
+    }
+    .#{$prefix}s-5 {
+        width: 41.66%;
+    }
+    .#{$prefix}s-6 {
+        width: 50%;
+    }
+    .#{$prefix}s-7 {
+        width: 58.33%;
+    }
+    .#{$prefix}s-8 {
+        width: 66.66%;
+    }
+    .#{$prefix}s-9 {
+        width: 75%;
+    }
+    .#{$prefix}s-10 {
+        width: 83.33%;
+    }
+    .#{$prefix}s-11 {
+        width: 91.66%;
+    }
+    .#{$prefix}s-12 {
+        width: 100%;
+    }
+    .#{$prefix}s-hidden {
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .#{$prefix}m-1 {
+        width: 8.33%;
+    }
+    .#{$prefix}m-2 {
+        width: 16.66%;
+    }
+    .#{$prefix}m-2-5 {
+        width: 20%;
+    }
+    .#{$prefix}m-3 {
+        width: 25%;
+    }
+    .#{$prefix}m-4 {
+        width: 33.33%;
+    }
+    .#{$prefix}m-5 {
+        width: 41.66%;
+    }
+    .#{$prefix}m-6 {
+        width: 50%;
+    }
+    .#{$prefix}m-7 {
+        width: 58.33%;
+    }
+    .#{$prefix}m-8 {
+        width: 66.66%;
+    }
+    .#{$prefix}m-9 {
+        width: 75%;
+    }
+    .#{$prefix}m-10 {
+        width: 83.33%;
+    }
+    .#{$prefix}m-11 {
+        width: 91.66%;
+    }
+    .#{$prefix}m-12 {
+        width: 100%;
+    }
+    .#{$prefix}m-hidden {
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .#{$prefix}1 {
+        width: 8.33%;
+    }
+    .#{$prefix}2 {
+        width: 16.66%;
+    }
+    .#{$prefix}2-5 {
+        width: 20%;
+    }
+    .#{$prefix}3 {
+        width: 25%;
+    }
+    .#{$prefix}4 {
+        width: 33.33%;
+    }
+    .#{$prefix}5 {
+        width: 41.66%;
+    }
+    .#{$prefix}6 {
+        width: 50%;
+    }
+    .#{$prefix}7 {
+        width: 58.33%;
+    }
+    .#{$prefix}8 {
+        width: 66.66%;
+    }
+    .#{$prefix}9 {
+        width: 75%;
+    }
+    .#{$prefix}10 {
+        width: 83.33%;
+    }
+    .#{$prefix}11 {
+        width: 91.66%;
+    }
+    .#{$prefix}12 {
+        width: 100%;
+    }
+    .#{$prefix}hidden {
+        display:none;
+    }
+}
